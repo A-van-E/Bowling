@@ -20,7 +20,7 @@ public class BowlingFrameTest {
 		frame.rollFirst(5);
 		assertEquals(5, frame.getScore());
 		frame.rollSecond(1);
-		assertEquals(7, frame.getScore());
+		assertEquals(6, frame.getScore());
 	}
 	
 	@Test
